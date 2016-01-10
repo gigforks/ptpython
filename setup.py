@@ -18,11 +18,6 @@ setup(
     description='Python REPL build on top of prompt_toolkit',
     long_description=long_description,
     packages=find_packages('.'),
-    install_requires = [
-        'prompt_toolkit==0.57',
-        'jedi>=0.9.0',
-        'docopt',
-    ],
     entry_points={
         'console_scripts': [
             'ptpython = ptpython.entry_points.run_ptpython:run',
